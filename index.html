@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>OG-Rainhard — Full-stack Developer · Crypto Products</title>
+  <meta name="description" content="OG-Rainhard (EverKrypton) — full-stack developer building crypto products: VOLT, a pro-grade spot exchange, and Oddsly, a self-hosted crypto sportsbook." />
+  <meta name="author" content="OG-Rainhard" />
+  <meta name="theme-color" content="#08080c" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="OG-Rainhard — Full-stack Developer · Crypto Products" />
+  <meta property="og:description" content="Builder of VOLT (spot exchange) and Oddsly (crypto sportsbook). Next.js, TypeScript, MongoDB, Vercel." />
+  <meta property="og:image" content="assets/og.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to work</a>
+
+  <div class="bg" aria-hidden="true">
+    <div class="bg__grid"></div>
+    <div class="bg__glow bg__glow--violet"></div>
+    <div class="bg__glow bg__glow--emerald"></div>
+    <div class="bg__noise"></div>
+  </div>
+
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a class="brand" href="#top" aria-label="OG-Rainhard, home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M16 2 4 9v14l12 7 12-7V9L16 2Z" stroke="currentColor" stroke-width="1.6"/><path d="M16 9v14M9.5 12.5l13 7M22.5 12.5l-13 7" stroke="currentColor" stroke-width="1.3"/></svg>
+        </span>
+        <span class="brand__text">OG<span>·</span>RAINHARD</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn--ghost nav__cta" href="#contact">Get in touch</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero__inner">
+        <p class="eyebrow reveal">Full-stack developer · Crypto &amp; Web</p>
+        <h1 id="hero-title" class="hero__title reveal">
+          I build crypto products<br />
+          that feel <span class="grad">fast and finished</span>.
+        </h1>
+        <p class="hero__lede reveal">
+          I'm OG-Rainhard — I design and ship production web apps end to end:
+          a matching-engine exchange, a payments-backed sportsbook, and more.
+          Next.js, TypeScript, MongoDB, on Vercel.
+        </p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary" href="#work">View my work</a>
+          <a class="btn btn--ghost" href="https://github.com/EverKrypton" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+        <dl class="hero__stats reveal">
+          <div><dt>Shipped</dt><dd>2 live products</dd></div>
+          <div><dt>Stack</dt><dd>Next.js · TS</dd></div>
+          <div><dt>Focus</dt><dd>Crypto infra</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker">Selected work</span>
+          <h2 id="work-title">Products I've built</h2>
+          <p>Live, self-hosted, and built from the database up — not templates.</p>
+        </div>
+
+        <div class="projects" id="projects"><!-- injected by script.js --></div>
+
+        <p class="work__note reveal">
+          More builds live on
+          <a href="https://github.com/EverKrypton?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a>
+          and games on
+          <a href="https://everkrypton.itch.io" target="_blank" rel="noopener">itch.io ↗</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="wrap about__grid">
+        <div class="about__col reveal">
+          <span class="kicker">About</span>
+          <h2 id="about-title">Full-stack, from schema to pixel.</h2>
+          <p>
+            I take products from an empty repo to something people can log into and
+            trust with money. That means order books and matching engines, auth and
+            2FA, payment webhooks, admin panels, and interfaces that stay legible
+            under pressure.
+          </p>
+          <p>
+            I care about correctness, latency and finish — the kind of detail that
+            makes a crypto product feel real instead of a demo.
+          </p>
+        </div>
+        <div class="about__col reveal">
+          <span class="kicker">Toolkit</span>
+          <ul class="stack">
+            <li>Next.js 15 · App Router</li>
+            <li>TypeScript · React 19</li>
+            <li>Tailwind CSS v4 · Motion</li>
+            <li>MongoDB · Mongoose</li>
+            <li>SSE · Lightweight Charts</li>
+            <li>viem · Sign-In with Ethereum</li>
+            <li>OxaPay · webhooks · HMAC</li>
+            <li>Vercel · CI/CD</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact__inner reveal">
+        <span class="kicker">Contact</span>
+        <h2 id="contact-title">Building something? Let's talk.</h2>
+        <p>Fastest reply on Telegram — usually within a day.</p>
+        <div class="contact__links">
+          <a class="btn btn--primary" href="https://t.me/ograinhard" target="_blank" rel="noopener">Telegram @ograinhard ↗</a>
+          <a class="btn btn--ghost" href="https://github.com/EverKrypton" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn btn--ghost" href="https://everkrypton.itch.io" target="_blank" rel="noopener">itch.io ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <span>© <span id="year"></span> OG-Rainhard · EverKrypton</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
